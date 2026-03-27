@@ -386,7 +386,14 @@ a.btn-readmore{
 
 .thesis-left{
     flex: 3;
-    
+}
+.thesis-info{
+  padding-left: 24px;
+  padding-bottom: 32px;
+}
+.thesis-info h3{
+  padding-bottom: 8px;
+  font-size: 32px;
 }
 .thesis-left video {
   width: 100%;
@@ -419,5 +426,28 @@ a.btn-readmore{
     border-bottom: 1px solid #ddd; 
     gap: 16px;
     margin-left: 16px;
+
+}
+
+.bottom{
+    border-top: 1px solid rgba(167, 167, 167, 0.692);
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+.bottom-left{
+    padding: 16px 24px;
+    color: rgb(78, 78, 78);
+}
+.bottom-right{
+    display: flex;
+    flex-direction: row;
+    padding: 16px 24px;
+    gap: 8px;
+}
+
+.bottom-right a{
+    text-decoration: none;
+    color: rgb(78, 78, 78);
 
 }
