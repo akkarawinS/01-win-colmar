@@ -100,7 +100,36 @@ p.nav-name-aca{
 .navbar-mobile {
   display: none;
 }
-
+@media screen and (max-width: 768px) {    
+.navbar{
+    display: none;
+}
+.navbar-mobile {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center; 
+    height: 64px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.container > img{
+    width: 100%;
+}
+.right-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.right-container a{
+    padding-bottom: 32px;    
+}
+}
 /* --------------PAGE2------------------*/
 .page2 {
     display: flex;
@@ -449,5 +478,33 @@ a.btn-readmore{
 .bottom-right a{
     text-decoration: none;
     color: rgb(78, 78, 78);
+
+}
+
+@media screen and (max-width: 768px) {    
+.thesis-container {
+    flex-direction: column; 
+    padding: 0; 
+}
+
+.thesis-left, .thesis-right {
+    width: 100%; 
+    flex: none;   
+}
+
+.thesis-left video {
+    padding: 0; 
+}
+
+.Now ,.fisma,.thesis-info{
+     display: none;
+}
+.bottom-right{
+    display: none;
+}
+.bottom{
+border-top: none;
+   
+}
 
 }
